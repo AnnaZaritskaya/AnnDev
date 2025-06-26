@@ -1,0 +1,35 @@
+@use "../mixins" as *;
+
+// Блок: button
+.button {
+    display: flex;
+    align-items: center;
+    font-family: var(--second-family);
+    font-size: 18px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: var(--color-brand);
+    text-decoration: none;
+    padding: 12px 22px 0 22px;
+    border-left: 1px solid var(--color-brand);
+    border-right: 1px solid var(--color-brand); 
+    border-top : 1px solid var(--color-brand);
+
+    @include mq(md) {
+        display: inline-flex;
+    }
+
+    &__arrow {
+        width: 23px;
+        height: 21px;
+    }
+
+    &:hover {
+        transition: 0.6s;
+        background: var(--color-further);
+    }
+
+    &:active {
+        background: #fff;
+    }
+}

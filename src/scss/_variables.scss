@@ -1,22 +1,20 @@
 :root {
   /* Основной фоновый цвет темы */
-  // --color-base: #000000;
-
-  /* Вторичный фоновый цвет, для карточек или подвала */
-  // --color-secondary: #151515;
+  --color-base: #010503;
 
   /* Основной цвет текста и контента */
-  // --color-primary: #ffffff;
+  --color-primary: #ffffff;
+  --color-secondary: #E5E7EB;
 
   /* Брендовый цвет, используется для логотипа, ссылок, кнопок, при наведении */
-  // --color-brand: #fed31f;
+  --color-brand: #00C74C;
+  --color-further: #807979;
 
   /* Второстепенный цвет текста, используется для описаний и менее важных элементов */
-  // --color-muted: #9d9d9d;
+  --color-muted: #9CA3AF;
 
-  // --color-border: #FFFFFF1A;
-
-  --font-family: "Poppins", sans-serif;
+  --font-family: "Fira Code", sans-serif;
+  --second-family: 'Press Start 2P', system-ui;
 }
 
 // Breakpoints
